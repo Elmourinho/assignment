@@ -1,3 +1,13 @@
+##########################
+## Java
+##########################
+*.class
+.mtj.tmp/
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -10,3 +20,14 @@ buildNumber.properties
 
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
+
+##########################
+## NetBeans
+##########################
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
