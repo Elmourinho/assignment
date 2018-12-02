@@ -1,0 +1,18 @@
+app:
+  jms:
+    source:
+      url: tcp://localhost:61616
+      username: admin
+      password: admin
+      queue: app-source
+    destination:
+      url: tcp://localhost:61616
+      username: admin
+      password: admin
+      topic: app-destination
+
+logging:
+  file: logs/application.log
+  level:
+    org.apache.activemq: info
+    com.example.activemq: debug

@@ -1,0 +1,8 @@
+app:
+  jms:
+    source:
+      url: vm://localhost
+      queue: app-source
+    destination:
+      url: vm://localhost
+      topic: app-destination
