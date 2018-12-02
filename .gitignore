@@ -21,6 +21,9 @@ buildNumber.properties
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
 
+# Avoid standalone runnable project jar file
+!assignment-1.0.jar
+
 ##########################
 ## NetBeans
 ##########################
@@ -31,3 +34,4 @@ dist/
 nbdist/
 nbactions.xml
 nb-configuration.xml
+logs/
